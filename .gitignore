@@ -1,0 +1,72 @@
+# ================================
+# Unreal Engine 5 Plugin .gitignore
+# ================================
+
+# Ignore build products
+Binaries/
+Build/
+Intermediate/
+DerivedDataCache/
+Saved/
+.vscode/
+.idea/
+.vs/
+
+# Ignore local project/user settings
+*.sln
+*.suo
+*.user
+*.userprefs
+*.opensdf
+*.sdf
+*.sln.docstates
+
+# Ignore backup and temporary files
+*.tmp
+*.log
+*.bak
+*.old
+*.orig
+*.swp
+*.sublime-workspace
+*.sublime-project
+
+# Ignore Mac/Unix system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Ignore Unreal automatic files
+*.VC.db
+*.VC.opendb
+
+# Ignore auto-generated plugin module files
+*.generated.h
+*_API.h
+*.obj
+*.pch
+*.exp
+*.lib
+*.dll
+*.dylib
+*.pdb
+
+# ================================
+# DO NOT IGNORE THESE
+# ================================
+
+# Keep all source, content, and resources
+!Source/**
+!Content/**
+!Resources/**
+
+# Keep plugin descriptor and metadata
+!*.uplugin
+!Config/**
+!README*
+!LICENSE*
+!*.Build.cs
